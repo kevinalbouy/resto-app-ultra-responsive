@@ -317,3 +317,12 @@ body {
 .section-note i {
     color: var(--primary);
 }
+
+.info-card {
+    background: rgba(15, 23, 42, 0.7); /* Plus sombre pour faire ressortir le texte */
+    backdrop-filter: blur(15px); /* Flou artistique sur l'image de fond */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Ombre portée pour donner du relief */
+}
