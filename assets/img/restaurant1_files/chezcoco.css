@@ -1,0 +1,688 @@
+@charset "utf-8";
+/* Média fluide simple
+   Remarque : un média fluide exige que vous supprimiez les attributs de hauteur et de largeur du média du code HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 ne prend pas en charge max-width ; la largeur par défaut est donc fixée à 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Propriétés de grille fluide Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiré par "Responsive Web Design" par Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	et le système Golden Grid par Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Disposition mobile : 480px et moins. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 180px;
+	display: block;
+	position: fixed;
+	padding-top: 40px;
+}
+.logo {
+	padding-bottom: 0px;
+}
+
+
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 215px;
+	width: 58.3333%;
+	display: block;
+}
+
+#entrees {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#viandes {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#pizzas-et-menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#pates-et-desserts {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#vins {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#intro {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+	background-color: #FFFFFF;
+}
+
+#lien {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#Slideshow {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#presentation {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+#image1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#images2 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#ancre-plats {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image3 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	background-color: #FFF;
+}
+
+#image4 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image5 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#lienmenu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+/* Disposition tablette : 481px sur 768px. Hérite des styles de : Disposition mobile */
+
+@media only screen and (min-width: 481px) {
+figure {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logotoro {
+	height: 128px;
+	width: 164px;
+	padding-top: 8px;
+}
+.imagette {
+	height: 128px;
+	width: 164px;
+	padding-top: 25px;
+	margin-left: 40px;
+	padding-bottom: 25px;
+}
+
+
+
+img {
+	width: 100%;
+}
+
+.texte_dintro {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #FFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 180px;
+	display: block;
+	position: fixed;
+	padding-top: 40px;
+}
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 215px;
+	width: 74.3589%;
+	display: block;
+}
+#entrees {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#viandes {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pizzas-et-menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pates-et-desserts {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#vins {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#intro {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+	background-color: #FFFFFF;
+}
+#lien {
+	clear: both;
+	float: left;
+	margin-left: 30px;
+	width: 100%;
+	display: block;
+}
+#Slideshow {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+#presentation {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right: 0px;
+	padding: 0px;
+}
+#image1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+#images2 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+#ancre-plats {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#image3 {
+	clear: both;
+	width: 100%;
+	display: block;
+	color: #000;
+	background-color: #FFF;
+}
+#image4 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#image5 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#image6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#image7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#image8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+#lienmenu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+}
+
+/* Disposition bureau : 769px à max. 1232px.  Hérite des styles de : Disposition mobile et disposition tablette */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 180px;
+	display: block;
+	position: fixed;
+	padding-top: 40px;
+}
+
+
+#maincontent {
+	clear: none;
+	float: left;
+	margin-left: 215px;
+	width: 79.5918%;
+	display: block;
+}
+
+#entrees {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+}
+
+#viandes {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+}
+
+#pizzas-et-menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+}
+
+#pates-et-desserts {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+}
+
+#vins {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+}
+
+#intro {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+	background-color: #FFFFFF;
+}
+
+#lien {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#Slideshow {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#image1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#images2 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#ancre-plats {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image3 {
+	clear: both;
+	float: left;
+	width: 28.5714%;
+	display: block;
+	background-color: #FFF;
+	color: #000;
+}
+
+#image4 {
+	clear: none;
+	float: left;
+	width: 28.5714%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image5 {
+	clear: none;
+	float: left;
+	width: 42.75%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image7 {
+	clear: none;
+	float: left;
+	width: 28.5714%;
+	display: block;
+	background-color: #FFF;
+}
+
+#image8 {
+	clear: none;
+	float: left;
+	width: 42.75%;
+	display: block;
+	background-color: #FFF;
+}
+
+#lienmenu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #FFF;
+}
+}
+#maincontent #presentation div {
+	padding: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#navigation .facebook {
+	margin-top: 20px;
+	height: 60px;
+}
+#navigation .insta {
+	margin-top: 0px;
+	height: 60px;
+}
+
+
+#maincontent .texte_dintro {
+	color: #FFF;
+	padding-top: 25px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.email {
+	text-align: right;
+	padding-right: 15px;
+	margin-top: 10px;
+}
+
+
+
+.prix {
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+}
+.texte-souligné {
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+
+.italique {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+	font-size: 10px;
+	color: #999;
+}
+
+#titre {
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+
+.gras {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.blupixel {
+	padding-top: 40px;
+}
+#faitmaison {
+	height: 80px;
+	width: 80px;
+}
+#logocontact {
+	height: 251px;
+	width: 278px;
+}
+
+
+.photos {
+}
