@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#0f172a">
-    <title>Chez CoCo - App</title>
+    <title>"Chez CoCo" - App</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -12,8 +12,7 @@
 <body>
 
 <header class="app-header">
-    <div class="logo">Chez CoCo</div>
-  
+    <div class="logo">"Chez CoCo"</div>
 </header>
 
 <main id="view-accueil" class="app-view active">
@@ -23,41 +22,40 @@
     </section>
 
     <div class="info-card" style="margin-bottom: 20px; border: 1px solid rgba(0, 210, 255, 0.2); background: rgba(0, 0, 0, 0.3);">
-    <img src="assets/img/coco.jpg" style="width: 100%; border-radius: 15px; height: 180px; object-fit: cover; margin-bottom: 20px; border-bottom: 2px solid var(--primary);">
-    
-    <h3 style="color: var(--primary); margin-top: 0; font-family: 'Inter', sans-serif; letter-spacing: 1px; font-weight: 800;">
-        <i class="fas fa-history"></i> NOTRE HÉRITAGE
-    </h3>
-    
-    <p style="font-size: 0.95em; line-height: 1.7; color: rgba(255,255,255,0.9); text-align: justify; font-style: italic;">
-        Au cœur des terres sauvages de la <strong>Camargue</strong>, niché dans la majestueuse rue principale des <strong>remparts d'Aigues-Mortes</strong>, L'Excellence est bien plus qu'un restaurant : c'est une escale hors du temps. 
-    </p>
-    
-    <p style="font-size: 0.95em; line-height: 1.7; color: rgba(255,255,255,0.9); text-align: justify;">
-        Depuis 1979, nous faisons battre le cœur de la cité médiévale au rythme du craquement du bois dans le four.<br> Notre passion ? La vérité du produit. <br>Une cuisson ancestrale au <strong>feu de bois</strong>, et ce goût inimitable que seul le sel de nos marais sait sublimer.
-    </p>
+        <img src="assets/img/coco.jpg" style="width: 100%; border-radius: 15px; height: 180px; object-fit: cover; margin-bottom: 20px; border-bottom: 2px solid var(--primary);">
+        
+        <h3 style="color: var(--primary); margin-top: 0; font-family: 'Inter', sans-serif; letter-spacing: 1px; font-weight: 800;">
+            <i class="fas fa-history"></i> NOTRE HÉRITAGE
+        </h3>
+        
+        <p style="font-size: 0.95em; line-height: 1.7; color: rgba(255,255,255,0.9); text-align: justify; font-style: italic;">
+            Au cœur des terres sauvages de la <strong>Camargue</strong>, niché dans la majestueuse rue principale des <strong>remparts d'Aigues-Mortes</strong>, L'Excellence est bien plus qu'un restaurant : c'est une escale hors du temps. 
+        </p>
+        
+        <p style="font-size: 0.95em; line-height: 1.7; color: rgba(255,255,255,0.9); text-align: justify;">
+            Depuis 1979, nous faisons battre le cœur de la cité médiévale au rythme du craquement du bois dans le four.<br> Notre passion ? La vérité du produit. <br>Une cuisson ancestrale au <strong>feu de bois</strong>, et ce goût inimitable que seul le sel de nos marais sait sublimer.
+        </p>
 
-    <div style="display: flex; justify-content: space-around; margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
-        <div style="text-align: center;">
-            <i class="fas fa-seedling" style="color: var(--primary); display: block; margin-bottom: 5px;"></i>
-            <span style="font-size: 0.7em; text-transform: uppercase;">Terroir</span>
+        <div style="display: flex; justify-content: space-around; margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+            <div style="text-align: center;">
+                <i class="fas fa-seedling" style="color: var(--primary); display: block; margin-bottom: 5px;"></i>
+                <span style="font-size: 0.7em; text-transform: uppercase;">Terroir</span>
+            </div>
+            <div style="text-align: center;">
+                <i class="fas fa-fire-alt" style="color: #ea580c; display: block; margin-bottom: 5px;"></i>
+                <span style="font-size: 0.7em; text-transform: uppercase;">Tradition</span>
+            </div>
+            <div style="text-align: center;">
+                <i class="fas fa-heart" style="color: #ef4444; display: block; margin-bottom: 5px;"></i>
+                <span style="font-size: 0.7em; text-transform: uppercase;">Passion</span>
+            </div>
         </div>
-        <div style="text-align: center;">
-            <i class="fas fa-fire-alt" style="color: #ea580c; display: block; margin-bottom: 5px;"></i>
-            <span style="font-size: 0.7em; text-transform: uppercase;">Tradition</span>
-        </div>
-        <div style="text-align: center;">
-            <i class="fas fa-heart" style="color: #ef4444; display: block; margin-bottom: 5px;"></i>
-            <span style="font-size: 0.7em; text-transform: uppercase;">Passion</span>
-        </div>
+        <br>
+
+        <button class="main-btn" onclick="document.querySelector('[data-target=\'menu\']').click()" style="margin-top: 20px;">
+            Voir la carte complète
+        </button>
     </div>
-    <br>
-
-     <button class="main-btn" onclick="document.querySelector('[data-target=\'menu\']').click()" style="margin-top: 20px;">
-        Voir la carte complète
-    </button>
-
-   
 
     <div class="info-card" style="text-align: left; display: flex; flex-direction: column; gap: 15px;">
         <div style="display: flex; align-items: center; gap: 15px;">
@@ -74,22 +72,82 @@
         </div>
     </div>
     
-   
-<div class="info-card" style="text-align: center;">
-    <h3 style="color: var(--primary); margin-top: 0;">Nous trouver</h3>
-    
-  
-
-    <div class="map-container" style="border-radius: 15px; overflow: hidden; height: 200px; border: 1px solid rgba(255,255,255,0.1);">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.8770598541564!2d4.187918776007156!3d43.5674447711064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b69a7dbaec5ad3%3A0x83531cf7f3ef6c72!2sRestaurant%20Chez%20%22CoCo%22!5e0!3m2!1sfr!2sfr!4v1774626992517!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            width="100%" 
-            height="100%" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>
+    <div class="info-card" style="text-align: center;">
+        <h3 style="color: var(--primary); margin-top: 0;">Nous situer</h3>
+        <div class="map-container" style="border-radius: 15px; overflow: hidden; height: 200px; border: 1px solid rgba(255,255,255,0.1);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.8770598541564!2d4.187918776007156!3d43.5674447711064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b69a7dbaec5ad3%3A0x83531cf7f3ef6c72!2sRestaurant%20Chez%20%22CoCo%22!5e0!3m2!1sfr!2sfr!4v1774626992517!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-</div>
+
+<div class="info-card" style="text-align: left; margin-bottom: 20px;">
+        <h3 style="color: var(--primary); margin-top: 0; display: flex; align-items: center; justify-content: space-between; font-weight: 800;">
+            <span><i class="fas fa-comments">
+            </i> Ce que disent nos clients</span>
+            <span style="color: #fbbc04; font-size: 0.9em;"><i class="fas fa-star">
+            </i> 5/5</span>
+        </h3>
+        
+        <div style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+            
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; min-width: 280px; scroll-snap-align: start; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=100&auto=format&fit=crop" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; border: 1px solid var(--primary);" alt="Patrice F.">
+                        <div>
+                            <div style="font-weight: bold; font-size: 0.9em; color: white;">Patrice F.</div>
+                            <div style="color: #fbbc04; font-size: 0.7em;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85em; color: rgba(255,255,255,0.8); margin: 0; font-style: italic; line-height: 1.5;">
+                        "Excellent restaurant dans le style bistrot. Accueil sympathique. Et surtout cuisine excellente et très généreuse à des tarifs raisonnables. Du fait maison."
+                    </p>
+                </div>
+                <div style="font-size: 0.7em; color: rgba(255,255,255,0.4); margin-top: 10px; text-align: right;">Oct. 2025 - Source: TripAdvisor</div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; min-width: 280px; scroll-snap-align: start; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; border: 1px solid var(--primary);" alt="Catherine B.">
+                        <div>
+                            <div style="font-weight: bold; font-size: 0.9em; color: white;">Catherine B.</div>
+                            <div style="color: #fbbc04; font-size: 0.7em;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85em; color: rgba(255,255,255,0.8); margin: 0; font-style: italic; line-height: 1.5;">
+                        "Nous a réconcilié avec la viande de taureau ; excellente cuisine familiale, le serveur est très sympathique, de bons conseils et tellement agréable"
+                    </p>
+                </div>
+                <div style="font-size: 0.7em; color: rgba(255,255,255,0.4); margin-top: 10px; text-align: right;">Nov. 2025 - Source: TripAdvisor</div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; min-width: 280px; scroll-snap-align: start; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; border: 1px solid var(--primary);" alt="Sabrina M.">
+                        <div>
+                            <div style="font-weight: bold; font-size: 0.9em; color: white;">Sabrina M.</div>
+                            <div style="color: #fbbc04; font-size: 0.7em;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85em; color: rgba(255,255,255,0.8); margin: 0; font-style: italic; line-height: 1.5;">
+                        "Nous avons été très bien accueillis, avec les enfants et une poussette ! ... une très bonne adresse pour les grillades. La qualité de la viande est excellente"
+                    </p>
+                </div>
+                <div style="font-size: 0.7em; color: rgba(255,255,255,0.4); margin-top: 10px; text-align: right;">Oct. 2025 - Source: TripAdvisor</div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</main>
 
 
 
@@ -98,538 +156,679 @@
 
 
 
-</main> <main id="view-menu" class="app-view">
+
+
+
+
+<main id="view-menu" class="app-view">
     <section class="hero-card">
         <h1>Notre Carte</h1>
         <p>Découvrez l'excellence culinaire</p>
     </section>
 
-    <h2 class="category-title">Entrées</h2>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fb923c/FFF?text=Saumon');"></div>
-            <div class="item-info">
-                <h3>Assiette de saumon fumé</h3>
-                <span class="price">12.00€</span>
-            </div>
-            <button class="add-btn">+</button>
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/saumon.jpg');">
+            <h2>Entrées</h2>
+            <i class="fas fa-chevron-down"></i>
         </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/ef4444/FFF?text=Gaspacho');"></div>
-            <div class="item-info">
-                <h3>Gaspacho</h3>
-                <span class="price">8.50€</span>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fb923c/FFF?text=Saumon');"></div>
+                    <div class="item-info">
+                        <h3>Assiette de saumon fumé</h3>
+                        <span class="price">12.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ef4444/FFF?text=Gaspacho');"></div>
+                    <div class="item-info">
+                        <h3>Gaspacho</h3>
+                        <span class="price">8.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/16a34a/FFF?text=Potage');"></div>
+                    <div class="item-info">
+                        <h3>Potage de saison</h3>
+                        <span class="price">7.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
             </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/16a34a/FFF?text=Potage');"></div>
-            <div class="item-info">
-                <h3>Potage de saison</h3>
-                <span class="price">7.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-    </div>
-
-    <h2 class="category-title">Salades</h2>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Foies');"></div>
-            <div class="item-info">
-                <h3>Salade de foies de volaille</h3>
-                <span class="price">13.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Lardons');"></div>
-            <div class="item-info">
-                <h3>Salade frisée</h3>
-                <p class="ingredients">Lardons et oeuf poché</p>
-                <span class="price">12.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Chef');"></div>
-            <div class="item-info">
-                <h3>Salade du chef</h3>
-                <p class="ingredients">Tomate, huile d’olive, mozza, basilic, anchois, câpres</p>
-                <span class="price">14.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Compo');"></div>
-            <div class="item-info">
-                <h3>Salade composée</h3>
-                <p class="ingredients">Pomme de Terre, haricots, thon, oeuf dur, olives, tomate</p>
-                <span class="price">13.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Pays');"></div>
-            <div class="item-info">
-                <h3>Salade de pays</h3>
-                <p class="ingredients">Coeur de laitue</p>
-                <span class="price">9.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Coco');"></div>
-            <div class="item-info">
-                <h3>Salade coco</h3>
-                <p class="ingredients">Frisée, fromage de chèvre chaud, croûtons</p>
-                <span class="price">14.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/ea580c/FFF?text=Poivrons');"></div>
-            <div class="item-info">
-                <h3>Poivrons grillés au feu de bois</h3>
-                <span class="price">11.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Anchoi');"></div>
-            <div class="item-info">
-                <h3>Anchoïade</h3>
-                <p class="ingredients">Pain avec crème d’anchois maison, salade frisée, tomate</p>
-                <span class="price">12.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Bonail');"></div>
-            <div class="item-info">
-                <h3>Salade Bonail</h3>
-                <p class="ingredients">Salade frisée, aïl, huile d’olive, croûtons, anchois</p>
-                <span class="price">13.00€</span>
-            </div>
-            <button class="add-btn">+</button>
         </div>
     </div>
 
-    <h2 class="category-title">Pâtes</h2>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fcd34d/FFF?text=Lasagnes');"></div>
-            <div class="item-info">
-                <h3>Lasagnes à la crème</h3>
-                <p class="ingredients">Jambon, champignons</p>
-                <span class="price">14.00€</span>
-            </div>
-            <button class="add-btn">+</button>
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/salade.jpg');">
+            <h2>Salades</h2>
+            <i class="fas fa-chevron-down"></i>
         </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Bolo');"></div>
-            <div class="item-info">
-                <h3>Spaguetti bolognaise</h3>
-                <span class="price">12.50€</span>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Foies');"></div>
+                    <div class="item-info">
+                        <h3>Salade de foies de volaille</h3>
+                        <span class="price">13.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Lardons');"></div>
+                    <div class="item-info">
+                        <h3>Salade frisée</h3>
+                        <p class="ingredients">Lardons et oeuf poché</p>
+                        <span class="price">12.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Chef');"></div>
+                    <div class="item-info">
+                        <h3>Salade du chef</h3>
+                        <p class="ingredients">Tomate, huile d’olive, mozza, basilic, anchois, câpres</p>
+                        <span class="price">14.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Compo');"></div>
+                    <div class="item-info">
+                        <h3>Salade composée</h3>
+                        <p class="ingredients">Pomme de Terre, haricots, thon, oeuf dur, olives, tomate</p>
+                        <span class="price">13.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Pays');"></div>
+                    <div class="item-info">
+                        <h3>Salade de pays</h3>
+                        <p class="ingredients">Coeur de laitue</p>
+                        <span class="price">9.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Coco');"></div>
+                    <div class="item-info">
+                        <h3>Salade coco</h3>
+                        <p class="ingredients">Frisée, fromage de chèvre chaud, croûtons</p>
+                        <span class="price">14.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ea580c/FFF?text=Poivrons');"></div>
+                    <div class="item-info">
+                        <h3>Poivrons grillés au feu de bois</h3>
+                        <span class="price">11.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Anchoi');"></div>
+                    <div class="item-info">
+                        <h3>Anchoïade</h3>
+                        <p class="ingredients">Pain avec crème d’anchois maison, salade frisée, tomate</p>
+                        <span class="price">12.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/4ade80/FFF?text=Bonail');"></div>
+                    <div class="item-info">
+                        <h3>Salade Bonail</h3>
+                        <p class="ingredients">Salade frisée, aïl, huile d’olive, croûtons, anchois</p>
+                        <span class="price">13.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
             </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/3b82f6/FFF?text=Mer');"></div>
-            <div class="item-info">
-                <h3>Spaguetti fruits de mer</h3>
-                <span class="price">16.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fef08a/333?text=Carbo');"></div>
-            <div class="item-info">
-                <h3>Pâtes carbonara</h3>
-                <span class="price">13.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/22c55e/FFF?text=Basilic');"></div>
-            <div class="item-info">
-                <h3>Tagliatelles au basilic</h3>
-                <span class="price">12.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fb923c/FFF?text=Saumon');"></div>
-            <div class="item-info">
-                <h3>Tagliatelles au saumon</h3>
-                <span class="price">15.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/eab308/FFF?text=Raviolis');"></div>
-            <div class="item-info">
-                <h3>Raviolis à l'italienne</h3>
-                <p class="ingredients">Boeuf, mozzarella</p>
-                <span class="price">14.50€</span>
-            </div>
-            <button class="add-btn">+</button>
         </div>
     </div>
 
-    <h2 class="category-title">Viandes grillées au feu de bois</h2>
-    <div class="section-note">
-        <i class="fas fa-info-circle"></i> Toutes nos viandes sont garnies de pommes de terre des sables.
-    </div>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Agneau');"></div>
-            <div class="item-info">
-                <h3>Épaule d’agneau</h3>
-                <p class="ingredients">Pour 2 personnes</p>
-                <span class="price">45.00€</span>
-            </div>
-            <button class="add-btn">+</button>
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/pates.jpg');">
+            <h2>Pâtes</h2>
+            <i class="fas fa-chevron-down"></i>
         </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Boeuf');"></div>
-            <div class="item-info">
-                <h3>Côte de boeuf</h3>
-                <p class="ingredients">Pour 2 personnes</p>
-                <span class="price">55.00€</span>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fcd34d/FFF?text=Lasagnes');"></div>
+                    <div class="item-info">
+                        <h3>Lasagnes à la crème</h3>
+                        <p class="ingredients">Jambon, champignons</p>
+                        <span class="price">14.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Bolo');"></div>
+                    <div class="item-info">
+                        <h3>Spaguetti bolognaise</h3>
+                        <span class="price">12.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/3b82f6/FFF?text=Mer');"></div>
+                    <div class="item-info">
+                        <h3>Spaguetti fruits de mer</h3>
+                        <span class="price">16.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fef08a/333?text=Carbo');"></div>
+                    <div class="item-info">
+                        <h3>Pâtes carbonara</h3>
+                        <span class="price">13.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/22c55e/FFF?text=Basilic');"></div>
+                    <div class="item-info">
+                        <h3>Tagliatelles au basilic</h3>
+                        <span class="price">12.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fb923c/FFF?text=Saumon');"></div>
+                    <div class="item-info">
+                        <h3>Tagliatelles au saumon</h3>
+                        <span class="price">15.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/eab308/FFF?text=Raviolis');"></div>
+                    <div class="item-info">
+                        <h3>Raviolis à l'italienne</h3>
+                        <p class="ingredients">Boeuf, mozzarella</p>
+                        <span class="price">14.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
             </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Cote');"></div>
-            <div class="item-info">
-                <h3>Côtelettes d’agneau</h3>
-                <span class="price">18.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Entrec');"></div>
-            <div class="item-info">
-                <h3>Entrecôte grillée</h3>
-                <p class="ingredients">220gr</p>
-                <span class="price">22.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Lapin');"></div>
-            <div class="item-info">
-                <h3>Lapin en brochette</h3>
-                <span class="price">16.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Andou');"></div>
-            <div class="item-info">
-                <h3>Andouillette</h3>
-                <span class="price">15.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Parilla');"></div>
-            <div class="item-info">
-                <h3>Parilla</h3>
-                <p class="ingredients">Côtelettes, lapin, saucisse</p>
-                <span class="price">24.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Veau');"></div>
-            <div class="item-info">
-                <h3>Escalope de veau milanaise</h3>
-                <p class="ingredients">Spaghetti, beurre, citron</p>
-                <span class="price">18.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Toro');"></div>
-            <div class="item-info">
-                <h3>Côte de taureau</h3>
-                <p class="ingredients">350gr</p>
-                <span class="price">28.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Filet');"></div>
-            <div class="item-info">
-                <h3>Filet de toro</h3>
-                <p class="ingredients">250gr</p>
-                <span class="price">26.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Pave');"></div>
-            <div class="item-info">
-                <h3>Pavé de toro</h3>
-                <p class="ingredients">200gr</p>
-                <span class="price">24.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Entrec');"></div>
-            <div class="item-info">
-                <h3>Entrecôte de toro</h3>
-                <p class="ingredients">220gr</p>
-                <span class="price">25.00€</span>
-            </div>
-            <button class="add-btn">+</button>
         </div>
     </div>
-    <div class="section-note" style="margin-top: 15px; text-align: center;">
-        <em>Sauce Roquefort en supplément : +2.50€</em>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/viande.jpg');">
+            <h2>Viandes</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="category-content">
+            <div class="section-note">
+                <i class="fas fa-info-circle"></i> Toutes nos viandes sont garnies de pommes de terre des sables.
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Agneau');"></div>
+                    <div class="item-info">
+                        <h3>Épaule d’agneau</h3>
+                        <p class="ingredients">Pour 2 personnes</p>
+                        <span class="price">45.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Boeuf');"></div>
+                    <div class="item-info">
+                        <h3>Côte de boeuf</h3>
+                        <p class="ingredients">Pour 2 personnes</p>
+                        <span class="price">55.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Cote');"></div>
+                    <div class="item-info">
+                        <h3>Côtelettes d’agneau</h3>
+                        <span class="price">18.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Entrec');"></div>
+                    <div class="item-info">
+                        <h3>Entrecôte grillée</h3>
+                        <p class="ingredients">220gr</p>
+                        <span class="price">22.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Lapin');"></div>
+                    <div class="item-info">
+                        <h3>Lapin en brochette</h3>
+                        <span class="price">16.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Andou');"></div>
+                    <div class="item-info">
+                        <h3>Andouillette</h3>
+                        <span class="price">15.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Parilla');"></div>
+                    <div class="item-info">
+                        <h3>Parilla</h3>
+                        <p class="ingredients">Côtelettes, lapin, saucisse</p>
+                        <span class="price">24.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/7f1d1d/FFF?text=Veau');"></div>
+                    <div class="item-info">
+                        <h3>Escalope de veau milanaise</h3>
+                        <p class="ingredients">Spaghetti, beurre, citron</p>
+                        <span class="price">18.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Toro');"></div>
+                    <div class="item-info">
+                        <h3>Côte de taureau</h3>
+                        <p class="ingredients">350gr</p>
+                        <span class="price">28.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Filet');"></div>
+                    <div class="item-info">
+                        <h3>Filet de toro</h3>
+                        <p class="ingredients">250gr</p>
+                        <span class="price">26.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Pave');"></div>
+                    <div class="item-info">
+                        <h3>Pavé de toro</h3>
+                        <p class="ingredients">200gr</p>
+                        <span class="price">24.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/1a2e05/FFF?text=Entrec');"></div>
+                    <div class="item-info">
+                        <h3>Entrecôte de toro</h3>
+                        <p class="ingredients">220gr</p>
+                        <span class="price">25.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+            </div>
+            <div class="section-note" style="margin-top: 15px; text-align: center;">
+                <em>Sauce Roquefort en supplément : +2.50€</em>
+            </div>
+        </div>
     </div>
-</main> <main id="view-pizzas" class="app-view">
+</main> ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="view-pizzas" class="app-view">
     <section class="hero-card">
         <h1>Nos Pizzas Artisanales</h1>
         <p>Pâte pétrie au pétrin & maturation lente</p>
     </section>
+    
     <div class="wood-fired-badge">
         <i class="fas fa-fire"></i> Cuites au feu de bois
     </div>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Marguarita');"></div>
-            <div class="item-info">
-                <h3>Marguarita</h3>
-                <p class="ingredients">Sauce tomate, mozzarella italienne</p>
-                <span class="price">12.00€</span>
-            </div>
-            <button class="add-btn">+</button>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/pizzarouge2.jpg');">
+            <h2>Pizzas Base Tomate</h2>
+            <i class="fas fa-chevron-down"></i>
         </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/2a3b5c/FFF?text=Napo');"></div>
-            <div class="item-info">
-                <h3>Napolitaine</h3>
-                <p class="ingredients">Sauce tomate, fromage, anchois</p>
-                <span class="price">13.50€</span>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Marguarita');"></div>
+                    <div class="item-info">
+                        <h3>Marguarita</h3>
+                        <p class="ingredients">Sauce tomate, mozzarella italienne</p>
+                        <span class="price">12.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/2a3b5c/FFF?text=Napo');"></div>
+                    <div class="item-info">
+                        <h3>Napolitaine</h3>
+                        <p class="ingredients">Sauce tomate, fromage, anchois</p>
+                        <span class="price">13.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ca8a04/FFF?text=Fromage');"></div>
+                    <div class="item-info">
+                        <h3>Fromage</h3>
+                        <p class="ingredients">Sauce tomate, mélange de fromages fondants</p>
+                        <span class="price">11.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/78350f/FFF?text=Champi');"></div>
+                    <div class="item-info">
+                        <h3>Champignon-fromage</h3>
+                        <p class="ingredients">Sauce tomate, champignons frais, fromage</p>
+                        <span class="price">13.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/db2777/FFF?text=Jambon');"></div>
+                    <div class="item-info">
+                        <h3>Jambon-fromage</h3>
+                        <p class="ingredients">Sauce tomate, jambon blanc, fromage</p>
+                        <span class="price">13.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ea580c/FFF?text=Reine');"></div>
+                    <div class="item-info">
+                        <h3>Reine</h3>
+                        <p class="ingredients">Sauce tomate, jambon, poivrons, fromage</p>
+                        <span class="price">14.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/15803d/FFF?text=Sicile');"></div>
+                    <div class="item-info">
+                        <h3>Sicilienne</h3>
+                        <p class="ingredients">Sauce tomate, fromage, anchois, câpres, poivrons</p>
+                        <span class="price">15.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/0891b2/FFF?text=4S');"></div>
+                    <div class="item-info">
+                        <h3>4 saisons</h3>
+                        <p class="ingredients">Sauce tomate, fromage, poivrons, artichaut, champignons</p>
+                        <span class="price">15.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/2563eb/FFF?text=FDM');"></div>
+                    <div class="item-info">
+                        <h3>Fruits de mer</h3>
+                        <p class="ingredients">Tomates, fruits de mer assortis, fromage</p>
+                        <span class="price">17.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/a21caf/FFF?text=Riviera');"></div>
+                    <div class="item-info">
+                        <h3>Riviera</h3>
+                        <p class="ingredients">Sauce tomate, fromage, jambon, oeuf, champignons</p>
+                        <span class="price">16.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Romaine');"></div>
+                    <div class="item-info">
+                        <h3>Romaine</h3>
+                        <p class="ingredients">Sauce tomate, fromage, chorizo, poivron, câpre, oignons</p>
+                        <span class="price">16.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ca8a04/FFF?text=4F');"></div>
+                    <div class="item-info">
+                        <h3>4 fromages</h3>
+                        <p class="ingredients">Emmental, roquefort, mozzarella, chèvre</p>
+                        <span class="price">16.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/db2777/FFF?text=Regina');"></div>
+                    <div class="item-info">
+                        <h3>Régina</h3>
+                        <p class="ingredients">Sauce tomate, jambon, champignons, fromage</p>
+                        <span class="price">14.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/0f172a/FFF?text=Nimoise');"></div>
+                    <div class="item-info">
+                        <h3>Nîmoise</h3>
+                        <p class="ingredients">Sauce tomate, brandade maison, olives noires</p>
+                        <span class="price">16.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
             </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/ca8a04/FFF?text=Fromage');"></div>
-            <div class="item-info">
-                <h3>Fromage</h3>
-                <p class="ingredients">Sauce tomate, mélange de fromages fondants</p>
-                <span class="price">11.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/78350f/FFF?text=Champi');"></div>
-            <div class="item-info">
-                <h3>Champignon-fromage</h3>
-                <p class="ingredients">Sauce tomate, champignons frais, fromage</p>
-                <span class="price">13.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/db2777/FFF?text=Jambon');"></div>
-            <div class="item-info">
-                <h3>Jambon-fromage</h3>
-                <p class="ingredients">Sauce tomate, jambon blanc, fromage</p>
-                <span class="price">13.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/ea580c/FFF?text=Reine');"></div>
-            <div class="item-info">
-                <h3>Reine</h3>
-                <p class="ingredients">Sauce tomate, jambon, poivrons, fromage</p>
-                <span class="price">14.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/15803d/FFF?text=Sicile');"></div>
-            <div class="item-info">
-                <h3>Sicilienne</h3>
-                <p class="ingredients">Sauce tomate, fromage, anchois, câpres, poivrons</p>
-                <span class="price">15.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/0891b2/FFF?text=4S');"></div>
-            <div class="item-info">
-                <h3>4 saisons</h3>
-                <p class="ingredients">Sauce tomate, fromage, poivrons, artichaut, champignons</p>
-                <span class="price">15.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/2563eb/FFF?text=FDM');"></div>
-            <div class="item-info">
-                <h3>Fruits de mer</h3>
-                <p class="ingredients">Tomates, fruits de mer assortis, fromage</p>
-                <span class="price">17.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/a21caf/FFF?text=Riviera');"></div>
-            <div class="item-info">
-                <h3>Riviera</h3>
-                <p class="ingredients">Sauce tomate, fromage, jambon, oeuf, champignons</p>
-                <span class="price">16.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/b91c1c/FFF?text=Romaine');"></div>
-            <div class="item-info">
-                <h3>Romaine</h3>
-                <p class="ingredients">Sauce tomate, fromage, chorizo, poivron, câpre, oignons</p>
-                <span class="price">16.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/ca8a04/FFF?text=4F');"></div>
-            <div class="item-info">
-                <h3>4 fromages</h3>
-                <p class="ingredients">Emmental, roquefort, mozzarella, chèvre</p>
-                <span class="price">16.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/db2777/FFF?text=Regina');"></div>
-            <div class="item-info">
-                <h3>Régina</h3>
-                <p class="ingredients">Sauce tomate, jambon, champignons, fromage</p>
-                <span class="price">14.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/e5e7eb/333?text=Norvege');"></div>
-            <div class="item-info">
-                <h3>Norvégienne</h3>
-                <p class="ingredients">Sauce blanche, fromage, saumon fumé</p>
-                <span class="price">17.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/16a34a/FFF?text=Verte');"></div>
-            <div class="item-info">
-                <h3>Verte</h3>
-                <p class="ingredients">Sauce blanche, mozzarella, parmezan, roquette fraîche</p>
-                <span class="price">15.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/0f172a/FFF?text=Nimoise');"></div>
-            <div class="item-info">
-                <h3>Nîmoise</h3>
-                <p class="ingredients">Sauce tomate, brandade maison, olives noires</p>
-                <span class="price">16.50€</span>
-            </div>
-            <button class="add-btn">+</button>
         </div>
     </div>
-</main> <main id="view-desserts" class="app-view">
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/pizzablanche.jpg');">
+            <h2>Pizzas Base Crème</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/e5e7eb/333?text=Norvege');"></div>
+                    <div class="item-info">
+                        <h3>Norvégienne</h3>
+                        <p class="ingredients">Sauce blanche, fromage, saumon fumé</p>
+                        <span class="price">17.00€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/16a34a/FFF?text=Verte');"></div>
+                    <div class="item-info">
+                        <h3>Verte</h3>
+                        <p class="ingredients">Sauce blanche, mozzarella, parmezan, roquette fraîche</p>
+                        <span class="price">15.50€</span>
+                    </div>
+                    <button class="add-btn">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="view-desserts" class="app-view">
     <section class="hero-card">
-        <h1>Fromages et Desserts</h1>
+        <h1>Fromages & Desserts</h1>
         <p>La touche de douceur finale</p>
     </section>
-    <div class="menu-grid">
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fef08a/333?text=Chevre');"></div>
-            <div class="item-info">
-                <h3>Fromage de chèvre</h3>
-                <span class="price">6.50€</span>
-            </div>
-            <button class="add-btn">+</button>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/fromage.jpg');">
+            <h2>Fromages</h2>
+            <i class="fas fa-chevron-down"></i>
         </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fbcfe8/333?text=Glaces');"></div>
-            <div class="item-info">
-                <h3>Sorbet et glaces artisanales</h3>
-                <span class="price">7.00€</span>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fef08a/333?text=Chevre');"></div>
+                    <div class="item-info">
+                        <h3>Fromage de chèvre</h3>
+                        <span class="price">6.50€</span>
+                    </div>
+                </div>
             </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fde047/333?text=Poire');"></div>
-            <div class="item-info">
-                <h3>Poire belle-hélène</h3>
-                <span class="price">8.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/78350f/FFF?text=Liegeois');"></div>
-            <div class="item-info">
-                <h3>Café ou chocolat liégeois</h3>
-                <span class="price">8.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/451a03/FFF?text=Profit');"></div>
-            <div class="item-info">
-                <h3>Profiteroles</h3>
-                <span class="price">9.00€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/fed7aa/333?text=Melba');"></div>
-            <div class="item-info">
-                <h3>Pêche melba</h3>
-                <span class="price">8.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/d97706/FFF?text=Tarte');"></div>
-            <div class="item-info">
-                <h3>Tarte maison</h3>
-                <span class="price">7.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/3b0764/FFF?text=Fondant');"></div>
-            <div class="item-info">
-                <h3>Fondant au chocolat</h3>
-                <span class="price">8.50€</span>
-            </div>
-            <button class="add-btn">+</button>
-        </div>
-        <div class="menu-item">
-            <div class="item-img" style="background-image: url('https://placehold.co/80x80/581c87/FFF?text=Mousse');"></div>
-            <div class="item-info">
-                <h3>Mousse chocolat</h3>
-                <span class="price">7.00€</span>
-            </div>
-            <button class="add-btn">+</button>
         </div>
     </div>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/coupes.jpg');">
+            <h2>Coupes & Glaces</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fbcfe8/333?text=Glaces');"></div>
+                    <div class="item-info">
+                        <h3>Sorbets et glaces artisanales</h3>
+                        <p class="ingredients">Parfums au choix</p>
+                        <span class="price">7.00€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fde047/333?text=Poire');"></div>
+                    <div class="item-info">
+                        <h3>Poire Belle-Hélène</h3>
+                        <span class="price">8.00€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/78350f/FFF?text=Liegeois');"></div>
+                    <div class="item-info">
+                        <h3>Café ou Chocolat Liégeois</h3>
+                        <span class="price">8.50€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/451a03/FFF?text=Profit');"></div>
+                    <div class="item-info">
+                        <h3>Profiteroles au chocolat</h3>
+                        <span class="price">9.00€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/fed7aa/333?text=Melba');"></div>
+                    <div class="item-info">
+                        <h3>Pêche Melba</h3>
+                        <span class="price">8.50€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/tartes2.webp');">
+            <h2>Nos Tartes Maison</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="category-content">
+            <div class="section-note">
+                <i class="fas fa-heart"></i> Fabrication 100% artisanale : nous préparons nous-mêmes la pâte et le fond de nos tartes chaque jour.
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/ef4444/FFF?text=Fraise');"></div>
+                    <div class="item-info">
+                        <h3>Tarte aux Fraises</h3>
+                        <p class="ingredients">Fraises fraîches, crème pâtissière légère</p>
+                        <span class="price">7.50€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/be185d/FFF?text=Framb');"></div>
+                    <div class="item-info">
+                        <h3>Tarte aux Framboises</h3>
+                        <p class="ingredients">Framboises entières sur fond de tarte craquant</p>
+                        <span class="price">7.50€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-category">
+        <div class="category-header" style="background-image: url('assets/img/fondant.webp');">
+            <h2>Desserts sur Assiette</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="category-content">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/3b0764/FFF?text=Fondant');"></div>
+                    <div class="item-info">
+                        <h3>Fondant au Chocolat</h3>
+                        <p class="ingredients">Cœur coulant, servi tiède</p>
+                        <span class="price">8.50€</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-img" style="background-image: url('https://placehold.co/80x80/581c87/FFF?text=Mousse');"></div>
+                    <div class="item-info">
+                        <h3>Mousse au Chocolat</h3>
+                        <p class="ingredients">Recette traditionnelle onctueuse</p>
+                        <span class="price">7.00€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
 </main> <nav class="bottom-nav">
     <a href="#" class="nav-item active" data-target="accueil">
         <i class="fas fa-home"></i><span>Accueil</span>
     </a>
     <a href="#" class="nav-item" data-target="menu">
-        <i class="fas fa-utensils"></i><span>Menu</span>
+    <i class="fas fa-utensils"></i><span>Menu</span>
     </a>
     <a href="#" class="nav-item" data-target="pizzas">
         <i class="fas fa-pizza-slice"></i><span>Pizzas</span>
